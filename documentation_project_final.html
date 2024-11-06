@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación del Proyecto de Procesamiento de Pedidos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        code {
+            background-color: #eee;
+            padding: 4px 8px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f9;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentación del Proyecto de Procesamiento de Pedidos</h1>
+    </header>
+    <div class="container">
+        <h2>Descripción</h2>
+        <p>Este proyecto de procesamiento de pedidos es una aplicación Java que permite realizar tareas específicas en la gestión de pedidos. A continuación, se describen los pasos para compilar y ejecutar el proyecto utilizando Maven.</p>
+        
+        <h2>Requisitos</h2>
+        <p>Para compilar y ejecutar este proyecto, es necesario tener <strong>Maven</strong> instalado. Si no se cuenta con Maven, se puede instalar mediante pip con el siguiente comando:</p>
+        <pre><code>pip install maven</code></pre>
+        
+        <h2>Instrucciones de Uso</h2>
+        <h3>Compilación</h3>
+        <p>Para compilar el proyecto, utilice el siguiente comando en el directorio raíz:</p>
+        <pre><code>mvn clean compile</code></pre>
+        
+        <h3>Ejecución</h3>
+        <p>Para ejecutar la clase principal, use el siguiente comando:</p>
+        <pre><code>mvn exec:java -Dexec.mainClass="com.empresa.Main"</code></pre>
+        
+        <h3>Tests</h3>
+        <p>Para ejecutar los tests, utilice el siguiente comando:</p>
+        <pre><code>mvn test</code></pre>
+
+        <h2>Estructura del Proyecto</h2>
+        <p>A continuación, se describe la estructura de clases del proyecto:</p>
+        <ul>
+            <li><strong>main/java/com/empresa</strong>
+                <ul>
+                    <li><code>Main.java</code>: Clase principal que inicia la aplicación.</li>
+                </ul>
+            </li>
+            <li><strong>main/java/com/empresa/modelo</strong>
+                <ul>
+                    <li><code>Pedido.java</code>: Clase que representa un pedido en el sistema.</li>
+                </ul>
+            </li>
+            <li><strong>main/java/com/empresa/servicios</strong>
+                <ul>
+                    <li><code>ProcesadorPedidos.java</code>: Clase que gestiona el procesamiento de los pedidos.</li>
+                    <li><code>ProcesamientoPago.java</code>: Clase que maneja los pagos.</li>
+                    <li><code>Empaquetado.java</code>: Clase encargada del empaquetado de pedidos.</li>
+                    <li><code>Envio.java</code>: Clase que gestiona el envío de pedidos.</li>
+                    <li><code>PrioritizedTask.java</code>: Clase auxiliar para tareas priorizadas.</li>
+                </ul>
+            </li>
+            <li><strong>main/java/com/empresa/utilidades</strong>
+                <ul>
+                    <li><code>UtilidadesConcurrencia.java</code>: Clase con utilidades para manejar concurrencia.</li>
+                </ul>
+            </li>
+            <li><strong>test/java/com/empresa</strong>
+                <ul>
+                    <li><code>MainTest.java</code>: Test para la clase principal.</li>
+                </ul>
+            </li>
+            <li><strong>test/java/com/empresa/servicios</strong>
+                <ul>
+                    <li><code>ProcesamientoPagoTest.java</code>: Test para la clase <code>ProcesamientoPago</code>.</li>
+                    <li><code>EmpaquetadoTest.java</code>: Test para la clase <code>Empaquetado</code>.</li>
+                    <li><code>EnvioTest.java</code>: Test para la clase <code>Envio</code>.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
