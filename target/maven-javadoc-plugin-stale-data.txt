@@ -1,0 +1,49 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ecommerce 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ecommerce 1.0-SNAPSHOT API'
+com.empresa.modelo
+com.empresa.servicios
+com.empresa
+com.empresa.utilidades
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/src/main/java = 1727608872179
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/help-doc.html = 1731176296231
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/script.js = 1731176296234
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/package-search-index.js = 1731176296190
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/constant-values.html = 1731176296074
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/overview-summary.html = 1731176296222
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/element-list = 1731176295996
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/allpackages-index.html = 1731176296188
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/index.html = 1731176296155
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/jquery-ui.overrides.css = 1731176296241
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/overview-tree.html = 1731176296148
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/type-search-index.js = 1731176296191
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/index-all.html = 1731176296218
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/search.js = 1731176296236
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/tag-search-index.js = 1731176296191
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/member-search-index.js = 1731176296191
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/allclasses-index.html = 1731176296184
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/stylesheet.css = 1731176296233
+/home/rodrigo/Desktop/Facultad/Programacion_Avanzada/concurrencia/target/site/apidocs/module-search-index.js = 1731176296189
